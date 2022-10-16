@@ -46,7 +46,7 @@ DOMAIN_PL: dev.example.pl:3000
 
 The file `nuxt.config.ts`:
 
-```json
+```ts
 publicRuntimeConfig: {
     DOMAIN_EN: process.env.DOMAIN_EN,
     DOMAIN_PL: process.env.DOMAIN_PL
